@@ -137,7 +137,7 @@ if page == "Home":
             grades = ["Grade 0", "Grade 1", "Grade 2", "Grade 3", "Grade 4"]
             for i, col in enumerate(cols):
                 with col:
-                    img_path = f"sample_images/grade{i}.png"
+                    img_path = f"grade{i}.png"
                     if os.path.exists(img_path):
                         st.image(img_path, caption=grades[i], use_column_width=True)
             st.info("Please upload an image to begin analysis.")
@@ -149,13 +149,13 @@ elif page == "Model Performance":
     col1, col2 = st.columns(2)
     with col1:
         st.write("### **Accuracy vs Epochs**")
-        st.image("outputs/accuracy_graph.png", use_column_width=True)
+        st.image("accuracy_graph.png", use_column_width=True)
     with col2:
         st.write("### **Loss vs Epochs**")
-        st.image("outputs/loss_graph.png", use_column_width=True)
+        st.image("loss_graph.png", use_column_width=True)
         
     st.markdown('<p class="section-header">Confusion Matrix</p>', unsafe_allow_html=True)
-    st.image("outputs/confusion_matrix.png", use_column_width=True)
+    st.image("confusion_matrix.png", use_column_width=True)
     
     st.markdown('<p class="section-header">Performance Summary</p>', unsafe_allow_html=True)
     metrics_df = pd.DataFrame({
@@ -168,10 +168,10 @@ elif page == "Model Performance":
 elif page == "Clinical Visualization":
     st.markdown('<p class="section-header">🩺 Clinical Heatmap Examples</p>', unsafe_allow_html=True)
     st.write("These examples show the model's ability to focus on joint space narrowing across different severity levels.")
-    st.image("outputs/gradcam_examples.png", use_column_width=True)
+    st.image("gradcam_examples.png", use_column_width=True)
     
     st.markdown('<p class="section-header">🖼️ Test Set Predictions</p>', unsafe_allow_html=True)
-    st.image("outputs/sample_predictions.png", use_column_width=True)
+    st.image("sample_predictions.png", use_column_width=True)
 
 # --- FOOTER ---
 st.markdown("---")
