@@ -5,7 +5,7 @@ timm
 numpy
 pandas
 matplotlib
-opencv-python-headless
+opencv-contrib-python-headless
 albumentations
 grad-cam
 pillow
