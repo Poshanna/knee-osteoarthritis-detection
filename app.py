@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from PIL import Image
-from utils.predictor import KneeOAPredictor, get_simulated_gradcam
+from predictor import KneeOAPredictor, get_simulated_gradcam
 
 # --- APP CONFIGURATION ---
 st.set_page_config(page_title="Knee Osteoarthritis Detection", layout="wide", page_icon="🦴")
