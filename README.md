@@ -253,12 +253,6 @@ https://github.com/Poshanna
 
 ---
 
-## 📜 License
-
-This project is developed for educational, research, and demonstration purposes only.
-
----
-
 ## ⭐ Support
 
 If you found this project useful, consider giving it a ⭐ on GitHub.
