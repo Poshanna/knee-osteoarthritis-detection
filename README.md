@@ -2,11 +2,19 @@
 
 ## 📌 Project Overview
 
-Knee Osteoarthritis (OA) is one of the most common degenerative joint diseases affecting millions of people worldwide. Early diagnosis and severity assessment help clinicians recommend appropriate treatment and improve patient outcomes.
+Knee Osteoarthritis (OA) Detection using Deep Learning is an AI-powered clinical decision support system designed to assist in the early detection and severity assessment of Knee Osteoarthritis from X-ray images. Osteoarthritis is one of the most prevalent degenerative joint disorders worldwide, leading to chronic pain, reduced mobility, and diminished quality of life. Early and accurate diagnosis is essential for timely intervention and improved patient outcomes.
 
-This project presents a Deep Learning-based web application that analyzes knee X-ray images and predicts the severity of Osteoarthritis using the Kellgren-Lawrence (KL) grading system. The application also provides Grad-CAM explainability, confidence scores, and clinical recommendations through an interactive Streamlit interface.
+This project leverages deep learning techniques to automatically analyze knee X-ray images and classify disease severity based on the Kellgren-Lawrence (KL) grading system (Grades 0–4). Beyond prediction, the application incorporates Grad-CAM explainability to visualize the regions influencing the model's decisions, thereby enhancing transparency and clinical trust.
 
-The project is deployed on Streamlit Cloud and integrated with GitHub for version control and continuous deployment.
+The solution is delivered through an intuitive Streamlit-based web application, enabling users to upload X-ray images and instantly receive:
+
+Automated KL grade predictions,
+Prediction confidence scores,
+Grad-CAM heatmap visualizations,
+Structural bone analysis,
+Clinically relevant recommendations based on disease severity.
+
+To ensure accessibility and seamless updates, the application is integrated with GitHub for version control and continuous deployment and is hosted on Streamlit Cloud, allowing real-time access through a web browser.
 
 ---
 
