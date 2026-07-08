@@ -254,7 +254,6 @@ This project demonstrates practical applications of:
 
 B.E. Artificial Intelligence & Machine Learning
 
-Chaitanya Bharathi Institute of Technology (CBIT)
 
 GitHub Profile:
 https://github.com/Poshanna
